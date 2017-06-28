@@ -1,0 +1,13 @@
+spring:
+  devtools:
+    livereload:
+      enabled: true
+  jpa:
+    database: POSTGRESQL
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+  datasource:
+    platform: postgres
+    driver-class-name: org.postgresql.Driver

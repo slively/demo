@@ -1,0 +1,6 @@
+task start {
+	dependsOn(
+		':server:bootRun',
+		':ui:start'
+	)
+}
