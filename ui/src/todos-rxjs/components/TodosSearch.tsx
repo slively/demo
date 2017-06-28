@@ -10,7 +10,7 @@ export class TodosSearch extends SPC<TodosSearchProps> {
 
 		return (
 			<div>
-				<label>SEARCH <input type='text' value={searchText} onChange={this.updateSearchText}/></label>
+				<label>Search <input type='text' value={searchText} onChange={this.updateSearchText}/></label>
 			</div>
 		);
 	}
